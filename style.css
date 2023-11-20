@@ -1,0 +1,125 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+    /* --intro-bg: rgb(59, 94, 128);
+    --accent-txt: #36a377; 
+     --banner-color:#3f3b37;*/
+
+       --intro-bg: rgb(40, 105, 133);
+    --accent-txt: #389c74;
+    --banner-color:#3f3b37;
+}
+
+
+
+main {
+    margin:auto;
+   	/* Styles for better appearance on screens only -- are reset to defaults in print styles later */
+
+	/* Reflect the paper width in the screen rendering (must match size from @page rule) */
+	width: 21cm;
+	/* Reflect the paper height in the screen rendering (must match size from @page rule) */
+	min-height: 29.7cm;
+    max-height: 29.7cm;
+	/* Reflect the actual page margin/padding on paper in the screen rendering (must match margin from @page rule) */
+ 
+    font-size:0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(241, 241, 241);
+
+    page-break-inside: avoid;
+    
+}
+
+
+main > div {
+    font-size: .9rem; display:grid;
+}
+
+h1, h2, h3, h4 {
+    margin:0;
+    padding:0;
+}
+
+h4 {
+    color:var(--accent-txt);
+    margin-top:6px;
+    margin-bottom:6px;
+    font-size:10px;
+ 
+}
+
+
+/*Removes space between div due to font size */
+.introduction{
+    background-color:var(--intro-bg);
+    padding:1.2rem;
+    color:white;
+
+ 
+}
+
+.introduction > h1 {
+    font-size:38px;
+    margin:10px auto;
+    
+ 
+}    
+.introduction > h2 {
+    font-size:22px;  
+    margin:0 auto;
+   
+}
+.introduction > h3 {
+    font-size:18px;  
+    margin:auto;
+ 
+}
+.contact{
+    background-color: var(--banner-color);
+    height:auto;
+    color:white;
+}
+
+.contact > ul {
+    list-style:none;
+    display:flex;
+    margin:auto;
+    padding: 5px 2px 5px 2px;
+}
+
+.contact > ul > li {
+    font-size:16px;
+    display:flex;
+}
+
+.contact > ul > li > i {
+   margin:auto;
+ }
+
+.contact > ul > li > p{
+   margin:auto;
+   padding-left:10px;
+   padding-right:20px;
+}
+
+.cover {
+margin:auto;
+width:75%;
+}
+
+.cover > p {
+    font-size: 18px;
+}
+
+.cover >  h3 {
+    font-size:28px;
+    color:var(--accent-txt);
+    padding:20px;
+    text-decoration:underline 3px;
+    margin:auto;
+}
