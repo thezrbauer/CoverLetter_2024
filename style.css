@@ -9,7 +9,7 @@
     --accent-txt: #36a377; 
      --banner-color:#3f3b37;*/
 
-       --intro-bg: rgb(40, 105, 133);
+    --intro-bg: rgb(40, 105, 133);
     --accent-txt: #389c74;
     --banner-color:#3f3b37;
 }
@@ -53,6 +53,9 @@ h4 {
  
 }
 
+p {
+    margin:10px;
+}
 
 /*Removes space between div due to font size */
 .introduction{
@@ -65,7 +68,7 @@ h4 {
 
 .introduction > h1 {
     font-size:38px;
-    margin:10px auto;
+    margin:10px auto 0 auto;
     
  
 }    
