@@ -23,8 +23,8 @@ main {
 	/* Reflect the paper width in the screen rendering (must match size from @page rule) */
 	width: 21cm;
 	/* Reflect the paper height in the screen rendering (must match size from @page rule) */
-	min-height: 29.7cm;
-    max-height: 29.7cm;
+	min-height: 28cm;
+    max-height: 28cm;
 	/* Reflect the actual page margin/padding on paper in the screen rendering (must match margin from @page rule) */
  
     font-size:0;
@@ -109,11 +109,14 @@ h4 {
 
 .cover {
 margin:auto;
-width:75%;
+width:80%;
 }
 
 .cover > p {
     font-size: 18px;
+    text-indent:50px;
+    line-height:170%;
+    margin:10px;
 }
 
 .cover >  h3 {
@@ -123,3 +126,5 @@ width:75%;
     text-decoration:underline 3px;
     margin:auto;
 }
+
+
