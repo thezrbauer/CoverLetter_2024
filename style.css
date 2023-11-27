@@ -9,7 +9,7 @@
     --accent-txt: #36a377; 
      --banner-color:#3f3b37;*/
 
-    --intro-bg: rgb(40, 105, 133);
+     --intro-bg: rgb(40, 105, 133);
     --accent-txt: #389c74;
     --banner-color:#3f3b37;
 }
@@ -23,8 +23,8 @@ main {
 	/* Reflect the paper width in the screen rendering (must match size from @page rule) */
 	width: 21cm;
 	/* Reflect the paper height in the screen rendering (must match size from @page rule) */
-	min-height: 28cm;
-    max-height: 28cm;
+	min-height: 29.7cm;
+    max-height: 29.7cm;
 	/* Reflect the actual page margin/padding on paper in the screen rendering (must match margin from @page rule) */
  
     font-size:0;
@@ -131,3 +131,13 @@ width:80%;
 }
 
 
+.sincerely {
+    color:var(--accent-txt);
+    font-size:22px;
+    margin:10px;
+}
+
+#exit {
+    font-style:italic;
+    margin: 0 0 0 110px;
+}
